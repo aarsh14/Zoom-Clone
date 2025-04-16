@@ -22,7 +22,7 @@ interface MeetingModalProps {
   handleClick?: () => void;
   buttonText?: string;
   image?: string;
-  buttonIcon: string;
+    buttonIcon?: string; 
 }
 
 const MeetingModal = ({
